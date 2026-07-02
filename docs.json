@@ -1,0 +1,144 @@
+{
+  "theme": "maple",
+  "name": "Guideless",
+  "description": "Turn any browser workflow into a polished, AI-narrated video guide. No recording, no editing, no scripts.",
+  "colors": {
+    "primary": "#6366F1",
+    "light": "#A5B4FC",
+    "dark": "#4F46E5"
+  },
+  "logo": {
+    "light": "https://media.brand.dev/e97f8e2b-cfed-4536-9f51-97c63cf93f23.svg",
+    "dark": "https://media.brand.dev/e97f8e2b-cfed-4536-9f51-97c63cf93f23.svg"
+  },
+  "favicon": "https://media.brand.dev/11a6e139-6432-43bf-a4ea-a9229b374f36.jpg",
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
+  "background": {
+    "decoration": "gradient"
+  },
+  "navbar": {
+    "links": [
+      {
+        "href": "https://guideless.ai/gallery",
+        "label": "Gallery"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Start free",
+      "href": "https://guideless.ai/auth"
+    }
+  },
+  "footer": {
+    "socials": {}
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "redirects": [
+    {
+      "source": "/analytics/insights",
+      "destination": "/analytics",
+      "permanent": true
+    },
+    {
+      "source": "/use-cases/customer-success",
+      "destination": "/use-cases",
+      "permanent": true
+    },
+    {
+      "source": "/use-cases/employee-training",
+      "destination": "/use-cases",
+      "permanent": true
+    },
+    {
+      "source": "/use-cases/customer-support",
+      "destination": "/use-cases",
+      "permanent": true
+    },
+    {
+      "source": "/use-cases/product-management",
+      "destination": "/use-cases",
+      "permanent": true
+    },
+    {
+      "source": "/use-cases",
+      "destination": "/use-cases/customer-success",
+      "permanent": true
+    }
+  ],
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "assistant"
+    ],
+    "display": "header"
+  },
+  "navigation": {
+    "pages": [
+      {
+        "group": "Get Started",
+        "icon": "asterisk",
+        "pages": [
+          "introduction",
+          "quickstart",
+          "plans"
+        ]
+      },
+      {
+        "group": "Create",
+        "icon": "sparkles",
+        "pages": [
+          "guides/capture",
+          "guides/branding",
+          "guides/edit-and-narration",
+          "voices"
+        ]
+      },
+      {
+        "group": "Share",
+        "icon": "send",
+        "pages": [
+          "sharing/share-link",
+          "sharing/embed",
+          "sharing/export"
+        ]
+      },
+      {
+        "group": "Insights",
+        "icon": "chart-pie",
+        "pages": [
+          "analytics/overview"
+        ]
+      },
+      {
+        "group": "Workspace",
+        "icon": "users",
+        "pages": [
+          "team-members",
+          "manage-workspace",
+          "workspace-analytics"
+        ]
+      },
+      {
+        "group": "Use Cases",
+        "icon": "layout-grid",
+        "pages": [
+          "use-cases/customer-success",
+          "use-cases/customer-support",
+          "use-cases/employee-training",
+          "use-cases/product-management"
+        ],
+        "hidden": true
+      },
+      "faq"
+    ]
+  }
+}
